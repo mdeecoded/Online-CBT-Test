@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://img.freepik.com/premium-photo/midsection-businessman-working-table-office_1048944-12719685.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba( 255, 36, 131, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .prev-btn,
+  .next-btn,
+  .submit-btn,
+  .retake-btn {
+    background-color: rgba( 255, 36, 131, 0.5 );
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover,
+  .submit-btn:hover,
+  .retake-btn:hover {
+    background-color: rgba( 255, 36, 131, 0.8 );
+  }
+  
+  .score {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
